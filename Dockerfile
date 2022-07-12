@@ -1,4 +1,4 @@
-From python:latest
+FROM python:latest
 RUN mkdir /data
 WORKDIR /data
 ADD . .
